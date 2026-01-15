@@ -44,15 +44,17 @@ public class PriceService {
         price.setCreatedAt(Instant.now());
         inMemoryPriceRepository.save(price);
         logger.info("Price successfully created {}", price);
-        /*try {
-            //considering subscriber is notified on new price publish
-            notifyDownstreamSystem(new ObjectMapper().writeValueAsString(price), String subscriberUrl);
+         try {
+            /*considering subscriber is notified on new price publish. for production ready code Messaging queue
+            will be the best approach. Comsider it as a sample code to demonstrate how system/systems could be notified
+            */
+            notifyDownstreamSystem(new ObjectMapper().writeValueAsString(price), "http://example:8087");
         } catch (Exception e) {
+            logger.error("Exception during downstream notification {}", e.getMessage());
             throw new RuntimeException(e);
-        }*/
+        }
     }
-
-    /*private void notifyDownstreamSystem(String payload, String url) {
+    private void notifyDownstreamSystem(String payload, String url) {
         HttpRequest request = null;
         try {
             request = HttpRequest.newBuilder()
@@ -62,13 +64,15 @@ public class PriceService {
                     .POST(HttpRequest.BodyPublishers.ofString(payload))
                     .build();
         } catch (Exception e) {
+            logger.error("Exception while forming Http request to notify downstream {}" , e.getMessage());
             throw new RuntimeException(e);
         }
         httpClient.sendAsync(request, HttpResponse.BodyHandlers.discarding())
                 .thenAccept(response -> {
                     logger.info(response.statusCode());
                 });
-    }*/
+    }
+    
 
     public void evictOldData(){
         logger.info("Clean up data older than 30 days called");
