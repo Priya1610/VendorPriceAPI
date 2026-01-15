@@ -1,5 +1,6 @@
 package com.matsuri.hometask.vendorpriceapi.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.matsuri.hometask.vendorpriceapi.domain.Price;
 import com.matsuri.hometask.vendorpriceapi.repository.InMemoryPriceRepository;
 import org.apache.logging.log4j.LogManager;
