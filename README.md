@@ -26,3 +26,7 @@ http://localhost:8080/swagger-ui/index.html
 ### OpenAPI JSON
 
 http://localhost:8080/v3/api-docs
+
+### Sequence & Domain Diagrams/Documentation
+
+Document is placed in docs folder mentioning the diagrams and technical flow.
