@@ -1,0 +1,102 @@
+2026-01-13 12:00:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Starting PriceControllerTest using Java 17.0.17 with PID 7984 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:00:07 DEBUG com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:00:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:00:08 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Started PriceControllerTest in 2.016 seconds (process running for 6.21)
+2026-01-13 12:00:08 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/test called
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/VENDOR called
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/test called
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/Instrument called
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price Price(vendorName=Vendor1, instrumentName=Instrument1, price=200.0, createdAt=2026-01-13T06:30:09.256008200Z) successfully created
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Clean up data older than 30 days called
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Starting VendorPriceApiApplicationTests using Java 17.0.17 with PID 7984 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:00:09 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:00:09 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:00:10 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Started VendorPriceApiApplicationTests in 1.079 seconds (process running for 7.86)
+2026-01-13 12:02:16 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplication - Starting VendorPriceApiApplication using Java 17.0.17 with PID 13844 (D:\Matsuri project\VendorPriceAPI\target\classes started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:02:16 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:02:16 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:02:17 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplication - Started VendorPriceApiApplication in 1.952 seconds (process running for 3.27)
+2026-01-13 12:03:01 WARN  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Invalid vendor name received during savePrices: 
+2026-01-13 12:03:26 WARN  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Invalid instrument name received during savePrices: 
+2026-01-13 12:03:41 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price Price(vendorName=IBM, instrumentName=AA, price=100.0, createdAt=2026-01-13T06:33:41.791560400Z) successfully created
+2026-01-13 12:03:41 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 12:04:08 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price Price(vendorName=Oracle, instrumentName=AA, price=200.0, createdAt=2026-01-13T06:34:08.439681500Z) successfully created
+2026-01-13 12:04:08 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 12:05:34 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/AA called
+2026-01-13 12:06:19 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/A called
+2026-01-13 12:13:55 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Starting VendorPriceApiApplicationTests using Java 17.0.17 with PID 16928 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:13:55 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:13:55 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:13:57 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Started VendorPriceApiApplicationTests in 2.354 seconds (process running for 4.249)
+2026-01-13 12:14:16 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price Price(vendorName=Vendor1, instrumentName=Instrument1, price=200.0, createdAt=2026-01-13T06:44:16.613817700Z) successfully created
+2026-01-13 12:14:16 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Clean up data older than 30 days called
+2026-01-13 12:14:18 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Starting VendorPriceApiApplicationTests using Java 17.0.17 with PID 11164 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:14:18 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:14:18 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:14:21 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Started VendorPriceApiApplicationTests in 3.897 seconds (process running for 10.97)
+2026-01-13 12:14:21 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Starting PriceControllerTest using Java 17.0.17 with PID 11164 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:14:21 DEBUG com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:14:21 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:14:22 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Started PriceControllerTest in 0.423 seconds (process running for 11.516)
+2026-01-13 12:14:22 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/test called
+2026-01-13 12:14:22 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 12:14:22 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/VENDOR called
+2026-01-13 12:14:22 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/test called
+2026-01-13 12:14:23 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/Instrument called
+2026-01-13 12:29:53 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price Price(vendorName=Vendor1, instrumentName=Instrument1, price=200.0, createdAt=2026-01-13T06:59:53.603296400Z) successfully created
+2026-01-13 12:29:55 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Starting VendorPriceApiApplicationTests using Java 17.0.17 with PID 4480 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:29:55 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:29:55 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:29:58 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Started VendorPriceApiApplicationTests in 3.533 seconds (process running for 11.045)
+2026-01-13 12:29:58 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Starting PriceControllerTest using Java 17.0.17 with PID 4480 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:29:58 DEBUG com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:29:58 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:29:58 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Started PriceControllerTest in 0.397 seconds (process running for 11.544)
+2026-01-13 12:29:59 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/test called
+2026-01-13 12:29:59 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 12:29:59 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/VENDOR called
+2026-01-13 12:29:59 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/test called
+2026-01-13 12:29:59 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/Instrument called
+2026-01-13 12:31:00 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price Price(vendorName=Vendor1, instrumentName=Instrument1, price=200.0, createdAt=2026-01-13T07:01:00.358945900Z) successfully created
+2026-01-13 12:31:01 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Starting VendorPriceApiApplicationTests using Java 17.0.17 with PID 15224 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:31:01 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:31:01 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:31:05 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Started VendorPriceApiApplicationTests in 3.932 seconds (process running for 10.634)
+2026-01-13 12:31:05 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Starting PriceControllerTest using Java 17.0.17 with PID 15224 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 12:31:05 DEBUG com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 12:31:05 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:31:05 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Started PriceControllerTest in 0.391 seconds (process running for 11.143)
+2026-01-13 12:31:06 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/test called
+2026-01-13 12:31:06 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 12:31:06 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/VENDOR called
+2026-01-13 12:31:06 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/test called
+2026-01-13 12:31:06 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/Instrument called
+2026-01-13 14:13:29 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Starting PriceControllerTest using Java 17.0.17 with PID 19200 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 14:13:29 DEBUG com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 14:13:29 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 14:13:30 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Started PriceControllerTest in 2.028 seconds (process running for 6.027)
+2026-01-13 14:13:30 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/test called
+2026-01-13 14:13:31 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 14:13:31 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/VENDOR called
+2026-01-13 14:13:31 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/test called
+2026-01-13 14:13:31 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/Instrument called
+2026-01-13 14:13:31 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price successfully created Price(vendorName=Vendor1, instrumentName=Instrument1, price=200.0, createdAt=2026-01-13T08:43:31.305067300Z)
+2026-01-13 14:13:31 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Starting VendorPriceApiApplicationTests using Java 17.0.17 with PID 19200 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 14:13:31 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 14:13:31 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 14:13:32 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Started VendorPriceApiApplicationTests in 1.041 seconds (process running for 7.661)
+2026-01-13 14:14:04 INFO  com.matsuri.hometask.vendorpriceapi.service.PriceService - Price successfully created Price(vendorName=Vendor1, instrumentName=Instrument1, price=200.0, createdAt=2026-01-13T08:44:04.507383700Z)
+2026-01-13 14:14:05 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Starting VendorPriceApiApplicationTests using Java 17.0.17 with PID 27080 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 14:14:05 DEBUG com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 14:14:05 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 14:14:07 INFO  com.matsuri.hometask.vendorpriceapi.VendorPriceApiApplicationTests - Started VendorPriceApiApplicationTests in 2.114 seconds (process running for 5.633)
+2026-01-13 14:14:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Starting PriceControllerTest using Java 17.0.17 with PID 27080 (started by My Pc in D:\Matsuri project\VendorPriceAPI)
+2026-01-13 14:14:07 DEBUG com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-01-13 14:14:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 14:14:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceControllerTest - Started PriceControllerTest in 0.45 seconds (process running for 6.195)
+2026-01-13 14:14:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/test called
+2026-01-13 14:14:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - Prices published successfully
+2026-01-13 14:14:07 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/VENDOR called
+2026-01-13 14:14:08 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /vendor/test called
+2026-01-13 14:14:08 INFO  com.matsuri.hometask.vendorpriceapi.controller.PriceController - GET /instrument/Instrument called
