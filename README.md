@@ -3,8 +3,8 @@
 ### Prerequisites
 Make sure you have the following installed:
 
-- **Java**: JDK 17+ (recommended)
-- **Maven**: 3.9+
+- **Java**: JDK 17 (recommended)
+- **Maven**: 3.9.x
 - **Git**
 
 ### Accessing the application
